@@ -19,9 +19,9 @@ def send_mail(datos):
         server.login(email_address, email_password)
         server.send_message(msg)
         server.quit()
-        print("Correo enviado exitosamente!")
+        print("the email was succesfully send it")
     except Exception as e:
-        print(f"Error al enviar el correo: {e}")
+        print(f"Error :{e}")
 
 
 
